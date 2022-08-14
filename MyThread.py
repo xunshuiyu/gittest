@@ -11,7 +11,6 @@ import time
 import copy
 import sqlite3
 from database_test import *
-from MyLog import *
 
 class MyThread_TransRecv(QThread):
     #boardnum chipid 进度 状态 开始时间 耗时
